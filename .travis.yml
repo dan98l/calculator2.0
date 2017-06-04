@@ -1,0 +1,12 @@
+language: c++
+
+compiler: gcc
+
+install: 
+  - make 
+
+after_success:
+  - make clean
+
+after_failure:
+  - make clean
